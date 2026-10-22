@@ -1,13 +1,13 @@
 :root {
-  --cor-fundo-1: #eaf7f4;
-  --cor-fundo-2: #d0ebe4;
-  --cor-fundo-3: #b6d9cf;
+  --cor-fundo-1: #fff1f5;
+  --cor-fundo-2: #f8dce6;
+  --cor-fundo-3: #efbfd0;
   --cor-principal: rgba(255, 255, 255, 0.7);
-  --cor-secundaria: #f5c7a9;
-  --cor-destaque: #e87552;
-  --cor-destaque-escuro: #b94d37;
-  --cor-texto: #183c3a;
-  --cor-borda: #d9b49c;
+  --cor-secundaria: #f4c4d4;
+  --cor-destaque: #d94f83;
+  --cor-destaque-escuro: #a82f60;
+  --cor-texto: #482333;
+  --cor-borda: #dca5b9;
 }
 
 * {
@@ -27,19 +27,19 @@ body {
 
 .caixa-principal {
   width: min(900px, 92%);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(235, 248, 244, 0.9));
-  border: 1px solid rgba(24, 60, 58, 0.15);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 239, 245, 0.94));
+  border: 1px solid rgba(72, 35, 51, 0.15);
   border-radius: 24px;
   text-align: center;
   padding: 32px 24px;
-  box-shadow: 0 20px 45px rgba(31, 92, 82, 0.18);
+  box-shadow: 0 20px 45px rgba(130, 49, 83, 0.18);
 }
 
 h1 {
   color: var(--cor-destaque-escuro);
   margin: 0;
   font-size: clamp(2rem, 3vw, 3rem);
-  text-shadow: 0 2px 8px rgba(232, 117, 82, 0.15);
+  text-shadow: 0 2px 8px rgba(217, 79, 131, 0.15);
 }
 
 .caixa-alternativas {
@@ -50,7 +50,7 @@ h1 {
 }
 
 .caixa-alternativas button {
-  background: linear-gradient(135deg, var(--cor-secundaria), #f9dfcf);
+  background: linear-gradient(135deg, var(--cor-secundaria), #fbe2eb);
   border: 1px solid var(--cor-borda);
   border-radius: 12px;
   color: var(--cor-texto);
@@ -59,14 +59,14 @@ h1 {
   font-weight: 600;
   padding: 14px 18px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-  box-shadow: 0 10px 20px rgba(185, 77, 55, 0.12);
+  box-shadow: 0 10px 20px rgba(168, 47, 96, 0.12);
 }
 
 .caixa-alternativas button:hover {
   background: linear-gradient(135deg, var(--cor-destaque), var(--cor-destaque-escuro));
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 12px 20px rgba(185, 77, 55, 0.22);
+  box-shadow: 0 12px 20px rgba(168, 47, 96, 0.22);
 }
 
 .caixa-resultado {
